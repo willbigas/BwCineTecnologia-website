@@ -2120,6 +2120,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="subject"],
 	input[type="tel"],
 	select,
 	textarea {
@@ -2142,6 +2143,7 @@ input, select, textarea {
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="subject"]:invalid,
 		input[type="tel"]:invalid,
 		select:invalid,
 		textarea:invalid {
@@ -2151,6 +2153,7 @@ input, select, textarea {
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="subject"]:focus,
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
@@ -2182,6 +2185,8 @@ input, select, textarea {
 
 	input[type="text"],
 	input[type="password"],
+	input[type="subject"],
+	input[type="tel"],
 	input[type="email"],
 	select {
 		height: 3em;
