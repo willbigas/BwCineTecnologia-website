@@ -2832,6 +2832,9 @@ input, select, textarea {
 		background-color: #f6f6f6;
 		padding: 3em 0 0.1em 0 ;
 	}
+		.title {
+			font-size: 3em;
+		}
 
 		#header .logo {
 			display: block;
@@ -2856,8 +2859,8 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 4em;
-					height: 4em;
+					width: 7em;
+					height: 7em;
 				}
 
 		#header nav {
