@@ -2367,6 +2367,11 @@ input, select, textarea {
 		font-weight: 900;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 	}
+
+	#logo-pequena{
+
+		max-height: 580px;
+	}	
 		
 
 
@@ -2830,19 +2835,19 @@ input, select, textarea {
 
 	#header {
 		background-color: #f6f6f6;
-		padding: 3em 0 0.1em 0 ;
+		padding: 1em 0 0.1em 0 ;
 	}
 		.title {
-			font-size: 3em;
+			font-size: 1.5em;
 		}
 
 		#header .logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-weight: 900;
+			font-weight: 650;
 			letter-spacing: 0.20em;
-			margin: 0 0 2.5em 0;
+			margin: 0 0 1em 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -2859,8 +2864,8 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 6em;
-					height: 6em;
+					width: 4em;
+					height: 4em;
 				}
 
 		#header nav {
@@ -3125,6 +3130,11 @@ input, select, textarea {
 					}
 
 		}
+		#titulo-home {
+			padding-top: 0.01;
+			font-size: 1.5em;
+		}
+		
 
 	.submenuservicos {
 		display: none;
